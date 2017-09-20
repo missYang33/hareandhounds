@@ -109,12 +109,12 @@ public class GameService {
             throw new InvalidIdException("INVALID_PLAYER_ID", null);
         }
 
-/*        if (!game.state.startsWith("TURN_")) {
+                if (!game.state.startsWith("TURN_")) {
             throw new IncorrectTurnOrIllegalMoveException("INCORRECT_TURN", null);
         }
         if (!game.state.equals("TURN_" + request.playerId)) {
             throw new IncorrectTurnOrIllegalMoveException("INCORRECT_TURN", null);
-        }*/
+        }
 
 
         try {
